@@ -3,11 +3,13 @@ module priority_encoder_4_to_2_tb;
     reg enable;
     reg [3:0] in;
     wire [1:0] out;
+    wire valid;
 
     priority_encoder_4_to_2 dut (
         .enable(enable),
         .in(in),
-        .out(out)
+        .out(out),
+        .valid(valid)
     );
 
     initial begin
@@ -15,7 +17,7 @@ module priority_encoder_4_to_2_tb;
         $dumpfile("priority_encoder_4_to_2_tb.vcd"); // Specify the VCD file name
         $dumpvars(0, priority_encoder_4_to_2_tb); // Dump all variables at time 
 
-        $monitor("Time=%0t: Enable=%b, In=%b, Out=%b", $time, enable, in, out);
+        $monitor("Time=%0t: Enable=%b, In=%b, Out=%b, valid=%b", $time, enable, in, out, valid);
         
         // active high enable
         enable = 1;
