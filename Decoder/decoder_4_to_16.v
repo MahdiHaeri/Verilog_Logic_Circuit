@@ -1,3 +1,4 @@
+// active low enable and output decoder
 module decoder_4_to_16 (input wire enable, input wire [3:0] in, output wire [15:0] out);
     // wire in3_not;
 

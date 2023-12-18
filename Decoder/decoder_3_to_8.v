@@ -1,3 +1,4 @@
+// active low enable and output decoder
 module decoder_3_to_8 (input wire enable, input wire [2:0] in, output wire [7:0] out);
     // gate-level implementation
     // wire in2_not;
