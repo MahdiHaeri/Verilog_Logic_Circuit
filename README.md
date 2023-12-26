@@ -10,4 +10,4 @@ This repository contains Verilog implementations of various logic circuits inclu
 - Comparator
 
 ## Special Thanks
-"Big thanks to WaveTrace.io for the amazing waveform extension in VSCode – it's a game-changer!"
+"Big thanks to [WaveTrace.io](https://www.wavetrace.io/) for the amazing waveform extension in VSCode – it's a game-changer!"
