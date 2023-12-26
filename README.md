@@ -8,3 +8,6 @@ This repository contains Verilog implementations of various logic circuits inclu
 - Adder
 - Multiplexer (MUX)
 - Comparator
+
+## Special Thanks
+"Big thanks to WaveTrace.io for the amazing waveform extension in VSCode – it's a game-changer!"
